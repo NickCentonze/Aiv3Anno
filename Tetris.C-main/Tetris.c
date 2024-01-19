@@ -335,7 +335,7 @@ void DeleteLines()
         {
             const int offset = y * STAGE_WIDTH + 1;
             memset(stage+offset,0,(STAGE_WIDTH-2)* sizeof(int));
-            WaitTime(0.05f);
+            WaitTime(0.05f);//modo per fare la redline (incipit)
             rowsCleared++;
             ResetLines(y);
 
