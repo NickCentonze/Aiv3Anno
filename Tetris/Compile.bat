@@ -1,0 +1,1 @@
+clang.exe -o Tetris.exe Tetris.c CheckCollision.c Draw_Reset_Lines.c -lraylibdll 
